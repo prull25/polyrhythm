@@ -1,0 +1,7 @@
+# Never serve these as public files from the deployment
+.git
+.wrangler
+node_modules
+wrangler.jsonc
+_headers
+*.log
