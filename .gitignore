@@ -1,7 +1,7 @@
-# Private source material — never commit
-Training Data/
-
 # OS / editor junk
 .DS_Store
 Thumbs.db
 *.tmp
+
+# Cloudflare build artifacts
+*.log
