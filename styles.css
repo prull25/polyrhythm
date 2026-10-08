@@ -119,14 +119,14 @@
   .nav-cta:hover { background: var(--bg-elevated); border-color: var(--accent); }
 
   main { position: relative; z-index: 2; }
-  section { padding: clamp(3.2rem, 9vw, 6rem) 0; }
+  section { padding: clamp(2.4rem, 7vw, 4.5rem) 0; }
 
-  .movement { display: flex; align-items: baseline; gap: 0.8rem; margin-bottom: clamp(1.6rem, 5vw, 2.6rem); }
+  .movement { display: flex; align-items: baseline; gap: 0.8rem; margin-bottom: clamp(1.2rem, 4vw, 2rem); }
   .movement-rule { flex: 1; height: 1px; background: var(--line-strong); }
   .movement-label { font-family: var(--font-mono); font-size: 0.74rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-faint); white-space: nowrap; }
 
   /* ======================= Hero ======================= */
-  .hero { padding-top: clamp(2.6rem, 8vw, 4.5rem); }
+  .hero { padding-top: clamp(2rem, 6vw, 3.5rem); }
   .hero-head {
     display: grid; gap: 1.3rem; max-width: 36rem;
     opacity: 0; transform: translateY(10px);
@@ -160,7 +160,7 @@
   @media (max-width: 420px) { .hero-ctas { flex-direction: column; } .btn { width: 100%; justify-content: center; } }
 
   .rhythm-stage {
-    position: relative; margin-top: clamp(2rem, 7vw, 3rem);
+    position: relative; margin-top: clamp(1.6rem, 5vw, 2.4rem);
     border: 1px solid var(--line); border-radius: 16px; background: var(--bg-elevated);
     overflow: hidden; padding: 1.2rem clamp(0.9rem, 3vw, 1.8rem) 1.4rem;
     opacity: 0; animation: hero-in 0.9s ease forwards; animation-delay: 0.55s;
@@ -208,9 +208,9 @@
   .triad p { color: var(--text-muted); max-width: var(--measure); }
 
   /* ======================= Who it's for ======================= */
-  .forwho { display: grid; gap: 0.9rem; max-width: var(--measure); }
+  .forwho { display: grid; gap: 0.9rem; max-width: var(--measure); margin-top: 1.4rem; }
   .forwho li { list-style: none; padding-left: 1.5rem; position: relative; color: var(--text-muted); font-size: 1.03rem; }
-  .forwho li::before { content: "—"; position: absolute; left: 0; color: var(--accent); }
+  .forwho li::before { content: "-"; position: absolute; left: 0; color: var(--accent); }
 
   /* ======================= About ======================= */
   .bio-line { font-family: var(--font-display); font-size: clamp(1.3rem, 3vw, 1.7rem); color: var(--text); margin-bottom: 1.4rem; max-width: var(--measure); }
@@ -246,7 +246,7 @@
   .join p { color: var(--text-muted); max-width: 26rem; margin: 0 auto; }
 
   /* ======================= Footer ======================= */
-  footer { border-top: 1px solid var(--line); padding: clamp(2.2rem, 5vw, 3.2rem) 0 2.2rem; }
+  footer { border-top: 1px solid var(--line); padding: clamp(1.75rem, 4vw, 2.5rem) 0 1.75rem; }
   .footer-grid { display: flex; justify-content: space-between; align-items: flex-start; gap: 1.5rem; flex-wrap: wrap; }
   .footer-social { display: flex; gap: 1.3rem; list-style: none; font-size: 0.9rem; }
   .footer-social a { text-decoration: none; color: var(--text-muted); }
