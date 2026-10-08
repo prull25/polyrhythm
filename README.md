@@ -1,6 +1,6 @@
 # Polyrhythm
 
-Source for the [polyrhythm.love](https://polyrhythm.love) site — a single static page (`index.html`, no build step, no dependencies).
+Source for the [polyrhythm.love](https://polyrhythm.love) site - a single static page (`index.html`, no build step, no dependencies).
 
 Relationship regulation for neurodivergent couples. Essays on [Substack](https://polyrhythm.substack.com), field notes on [Instagram](https://instagram.com/polyrhythm).
 
